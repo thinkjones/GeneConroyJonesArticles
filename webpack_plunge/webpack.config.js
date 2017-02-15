@@ -6,7 +6,7 @@ module.exports = {
     entry: './client/webpack.js',
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "app.js"
+        filename: "bundle.js"
     }
 
 };
