@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require("webpack");
 
 // Webpack Config Documentation: https://webpack.js.org/configuration/
 

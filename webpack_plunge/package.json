@@ -10,10 +10,16 @@
   "license": "ISC",
   "devDependencies": {
     "angular": "^1.6.2",
+    "exports-loader": "^0.6.3",
+    "expose-loader": "^0.7.3",
     "file-loader": "^0.10.0",
     "http-server": "^0.9.0",
+    "imports-loader": "^0.7.0",
+    "script-loader": "^0.7.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "angular-ui-router": "^0.4.2"
+  }
 }

@@ -8,11 +8,11 @@
 
 </head>
 <body>
-    <h1> Webpack App</h1>
-    <div ng-app="app">
-        <div ng-controller="MyFirstController as ctrl">
-            <h2>{{ctrl.greeting}}</h2>
-        </div>
-    </div>
+<h1> Webpack App</h1>
+<div ng-app="app">
+    <a ui-sref="landing" ui-sref-active="active">Landing</a>
+    <a ui-sref="about" ui-sref-active="active">About</a>
+    <ui-view></ui-view>
+</div>
 </body>
 </html>
