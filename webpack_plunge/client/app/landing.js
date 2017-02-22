@@ -2,5 +2,5 @@
 
 myApp.controller('LandingCtrl', function(){
     var app = this;
-    app.greeting = 'Welcomet to the Landing Page';
+    app.greeting = 'Welcome to the Landing Page';
 });

@@ -2,5 +2,5 @@
 
 myApp.controller('AboutCtrl', function(){
     var app = this;
-    app.greeting = 'Welcomet to the About Page';
+    app.greeting = 'Welcome to the About Page';
 });
