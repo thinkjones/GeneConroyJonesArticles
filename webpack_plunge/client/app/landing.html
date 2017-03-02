@@ -2,4 +2,8 @@
     <h1>Landing Page</h1>
     {{ctrl.greeting}}
     <a ui-sref="about"><< To the about page</a>
+
+    <div ng-repeat="post in ctrl.posts">
+        {{post.id}}:{{post.title}} by {{post.author}}
+    </div>
 </div>
